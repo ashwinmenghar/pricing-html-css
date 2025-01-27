@@ -44,7 +44,6 @@ main {
 h1 {
   color: var(--grayish-blue);
   font-size: 2rem;
-  /* font-weight: 700; */
   letter-spacing: 1px;
 }
 
@@ -160,7 +159,6 @@ input:checked + .slider:before {
 
 .pricing h2 {
   font-size: 1.23rem;
-  /* font-weight: 700; */
 }
 
 .basic-container h2,
@@ -225,7 +223,6 @@ hr {
 .professional-container button {
   color: var(--purple);
   background-color: var(--white);
-  /* transition: var(--transition); */
 }
 
 .basic-container button,
