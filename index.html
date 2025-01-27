@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Pricing project"
-    />
+    <meta name="description" content="Pricing project" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="icon"
@@ -13,6 +10,7 @@
       sizes="32x32"
       href="images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Pricing Component</title>
   </head>
@@ -22,18 +20,18 @@
       <header>
         <h1>Our Pricing</h1>
         <nav>
-          <p>Annually</p>
+          <p class="pricing-duration">Annually</p>
           <label class="switch">
             <input type="checkbox" id="checkbox" />
             <span class="slider round"></span>
           </label>
-          <p>Monthly</p>
+          <p class="pricing-duration">Monthly</p>
         </nav>
       </header>
       <main>
         <section class="pricing-container">
           <!-- Basic -->
-          <div class="pricing container-1">
+          <div class="pricing basic-container">
             <h2>Basic</h2>
             <p class="basic-price">
               <span class="dollar-sign">&dollar;</span>199.99
@@ -50,7 +48,7 @@
             <button>Learn more</button>
           </div>
           <!-- Professional -->
-          <div class="pricing container-2">
+          <div class="pricing professional-container">
             <h2>Professional</h2>
             <p class="professional-price">
               <span class="dollar-sign">&dollar;</span>249.99
@@ -67,7 +65,7 @@
             <button>Learn more</button>
           </div>
           <!-- Master -->
-          <div class="pricing container-3">
+          <div class="pricing master-container">
             <h2>Master</h2>
             <p class="master-price">
               <span class="dollar-sign">&dollar;</span>399.99
